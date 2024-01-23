@@ -3,7 +3,6 @@
 This project demonstrates the integration of Web3.js with a Solidity smart contract. The smart contract, named CustomToken, is an ERC-20 token with additional functionalities to capture the latest transfer details such as timestamp, sender, and receiver.
  ## Table of Contents
  - [Overview](#overview)
- - [Table of Contents](#table of contents)
  - [Usage](#usage)
  - [Features](#features)
  ## Usage

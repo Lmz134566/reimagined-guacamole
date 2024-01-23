@@ -7,13 +7,13 @@ This project demonstrates the integration of Web3.js with a Solidity smart contr
  - [Features](#features)
  ## Usage
 ### Environment Setup
-1)Install Node.js and npm.
-2)Install web3.js (npm install web3)
-3)Configure web3.js to connect to your local blockchain (Ganache) or any public testnet.
+-Install Node.js and npm.
+-Install web3.js (npm install web3)
+-Configure web3.js to connect to your local blockchain (Ganache) or any public testnet.
 ### Deploy Smart Contract
-1)Deploy the CustomToken smart contract to your chosen network(npx hardhat run deploy.js --network ganache).
+-Deploy the CustomToken smart contract to your chosen network(npx hardhat run deploy.js --network ganache).
 ### Run Web3.js Script
-1)Run the Web3.js script to interact with the deployed smart contract(node web3-interaction.js)
+-Run the Web3.js script to interact with the deployed smart contract(node web3-interaction.js)
 
 ### Features
 - CustomToken Smart Contract: The smart contract is an ERC-20 token with added features to capture the timestamp, sender, and receiver of the latest transfer.
